@@ -6,11 +6,11 @@ const input = require("fs")
 const n = Number(input);
 let result = "";
 
-for (let i = 1; i <= 2 * n; i++) {
-  if (i % 2 === 0) {
-    result += "* ".repeat((i / 2)-1) + "\n";
+for (let i = 1; i <= 2*n; i++) {
+  if (i % 2 !== 0) {
+    result += "* ".repeat(n-(i/2)+1) + "\n";
   } else {
-    result += "* ".repeat(n+1) + "\n";
+    result += "* ".repeat(i / 2) + "\n";
   }
 }
 

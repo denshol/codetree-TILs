@@ -1,7 +1,7 @@
 function fuc(a,b,c){
-    if(a>b && c>b){
+    if(a>=b && c>=b){
         return b;
-    }else if(a>c && b>c){
+    }else if(a>=c && b>=c){
         return c;
     }else{
         return a;

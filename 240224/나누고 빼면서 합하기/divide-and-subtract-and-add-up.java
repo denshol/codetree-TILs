@@ -13,7 +13,7 @@ public class Main {
 
 
         int N = Integer.parseInt(st.nextToken());
-        int M = Integer.parseIne(st.nextToken());
+        int M = Integer.parseInt(st.nextToken());
         
         System.out.println(N,M);
     }
